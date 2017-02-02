@@ -1,0 +1,2 @@
+class WebdesignController < ApplicationController
+end

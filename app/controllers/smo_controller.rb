@@ -1,0 +1,2 @@
+class SmoController < ApplicationController
+end

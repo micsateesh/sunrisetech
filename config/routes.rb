@@ -1,6 +1,16 @@
 Rails.application.routes.draw do
-  get 'home/index'
-
+  match '/seo-services', to: 'seo#seo', via: [:get]
+  match '/smo-services', to: 'smo#smo', via: [:get]
+  match '/prices', to: 'price#price', via: [:get]
+  match '/about', to: 'about#about', via: [:get]
+  match '/contact', to: 'contact#contact', via: [:get]
+  match '/web-design', to: 'webdesign#web', via: [:get]
+  # match '/punjabi_videos', to: 'videos#punjabi', via: [:get]
+  # match '/haryanvi_videos', to: 'videos#haryanvi', via: [:get]
+  # match '/hollywood_movies', to: 'movies#hollywood', via: [:get]
+  # match '/bollywood_movies', to: 'movies#bollywood', via: [:get]
+  # match '/punjabi_movies', to: 'movies#punjabi', via: [:get]
+  # match '/haryanvi_movies', to: 'movies#haryanvi', via: [:get]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
