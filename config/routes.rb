@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  match '/seo-services', to: 'seo#seo', via: [:get]
+  match '/seo-services', to: 'seo#seoservise', via: [:get]
   match '/smo-services', to: 'smo#smo', via: [:get]
   match '/prices', to: 'price#price', via: [:get]
   match '/about', to: 'about#about', via: [:get]
