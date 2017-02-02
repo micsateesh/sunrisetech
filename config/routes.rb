@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   match '/smo-services', to: 'smo#smo', via: [:get]
   match '/prices', to: 'price#price', via: [:get]
   match '/about', to: 'about#about', via: [:get]
-  match '/contact', to: 'contact#contact', via: [:get]
+  match '/contact', to: 'contact', via: [:get]
   match '/web-design', to: 'webdesign#web', via: [:get]
   # match '/punjabi_videos', to: 'videos#punjabi', via: [:get]
   # match '/haryanvi_videos', to: 'videos#haryanvi', via: [:get]
