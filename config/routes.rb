@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
-  match '/seo-services', to: 'seo#seoservise', via: [:get]
+  # match '/seo-services', to: 'seo#seoservise', via: [:get]
   match '/smo-services', to: 'smo#smo', via: [:get]
   match '/prices', to: 'price#price', via: [:get]
   match '/about', to: 'about#about', via: [:get]
-  match '/contact', to: 'contact', via: [:get]
-  match '/web-design', to: 'webdesign#web', via: [:get]
+  match '/contact', to: 'about#contact', via: [:get]
+  match '/web-designing', to: 'webdesign#web', via: [:get]
   # match '/punjabi_videos', to: 'videos#punjabi', via: [:get]
   # match '/haryanvi_videos', to: 'videos#haryanvi', via: [:get]
   # match '/hollywood_movies', to: 'movies#hollywood', via: [:get]
