@@ -1,0 +1,32 @@
+#contact-info{
+	float: right;
+	padding: 7px;
+}
+#logo{
+	padding: 10px;
+}
+#container{
+	background-color: #FAAA;
+}
+#drop-down{
+
+}
+.nav-list{
+	font-size: 14px;
+	padding-right: 4%;
+}
+.nav-list li a:hover{
+	color: brown;
+}
+.nav-list a{
+	color: #333333;
+}
+.nav-list a:hover{
+    color: brown ;
+    background-color: transparent !important;
+    
+}
+.dropdown:hover .dropdown-menu{
+  display: block !important;
+
+}
