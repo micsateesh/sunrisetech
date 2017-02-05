@@ -5,3 +5,94 @@
 width: 30px;
 margin-top: 223px;
 }
+/*#cnt-head{
+  font-size: 37px;
+font-style: oblique;
+font-family: initial;
+}*/
+
+.inner-bus-block{
+  text-align: center;
+}
+
+/*#cnt{
+  font-size: 20px;
+font-family: initial;
+font-size-adjust: initial;
+color: darkslategrey;
+}*/
+.inner-ser-block{
+  text-align: center;
+}
+.cnt-head{
+  font-size: 38px;
+  font-weight: lighter;
+font-family: neouthin;
+text-align: center;
+text-transform: uppercase;
+color: #d12527;
+margin-top: 40px;
+line-height: 1;
+padding: 10px;
+}
+.cnt{
+  font-family: neouthin;
+text-align: center;
+padding: 5px;
+text-transform: uppercase;
+font-size: 22px;
+color: #8E91A0;
+margin-top: 0px;
+font-weight: lighter;
+text-rendering: optimizeLegibility;
+}
+
+div .rt{
+  width:160px;
+  height:160px;
+  border:#cecece;
+  margin-left: 30%;
+  margin-top: 40px;
+  position:relative;
+  content: "";
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+div.rt:hover {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  transform: rotate(360deg);
+}  
+.serv-head{
+  text-align: center;
+  font-size: 24px;
+  font-family: neoubold;
+  color: #333333;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.about-serv{
+  text-align: center;
+  font-size: 14px;
+  color: #777777;
+  margin-bottom: 10px;
+}  
+
+.ftr1{
+  background: #252525;
+}
+.ftr1 h4{
+font-size: 18px;
+color: whitesmoke;
+}
+.ftr1 li{
+  color: transparent;
+}
+.ftr1 li a{
+  color: whitesmoke;
+}
+.contact p{
+  color: whitesmoke;
+}
