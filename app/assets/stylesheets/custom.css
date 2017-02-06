@@ -1,3 +1,7 @@
+.hd{
+	background: #2abcf2;
+	color: white;
+}
 #contact-info{
 	float: right;
 	padding: 7px;
@@ -29,4 +33,34 @@
 .dropdown:hover .dropdown-menu{
   display: block !important;
 
+}
+
+.cpy{
+	text-align: center;
+    font-family: initial;
+    font-style: oblique;
+    color: #7A7A7A;
+    margin-top: 30px;
+}
+.ftr1{
+  background: #252525;
+}
+.ftr1 h4{
+font-size: 25px;
+color: whitesmoke;
+}
+.ftr1 li{
+  color: transparent;
+}
+.ftr1 li a{
+  color: #808283;
+}
+.contact p{
+  color: #808283;
+}
+.contact{
+	 margin-top: 35px;
+}
+.contact li{
+	padding-top: 5px;
 }

@@ -25,8 +25,8 @@ color: darkslategrey;
   text-align: center;
 }
 .cnt-head{
-  font-size: 38px;
-  font-weight: lighter;
+font-size: 38px;
+font-weight: lighter;
 font-family: neouthin;
 text-align: center;
 text-transform: uppercase;
@@ -36,7 +36,7 @@ line-height: 1;
 padding: 10px;
 }
 .cnt{
-  font-family: neouthin;
+font-family: neouthin;
 text-align: center;
 padding: 5px;
 text-transform: uppercase;
@@ -79,20 +79,6 @@ div.rt:hover {
   color: #777777;
   margin-bottom: 10px;
 }  
-
-.ftr1{
-  background: #252525;
-}
-.ftr1 h4{
-font-size: 18px;
-color: whitesmoke;
-}
-.ftr1 li{
-  color: transparent;
-}
-.ftr1 li a{
-  color: whitesmoke;
-}
-.contact p{
-  color: whitesmoke;
+.glyphicon{
+  display: none !important;
 }
