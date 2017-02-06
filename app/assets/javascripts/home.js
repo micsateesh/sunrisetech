@@ -31,3 +31,12 @@ function carousel() {
     setTimeout(carousel, 2000); // Change image every 2 seconds
 }
 
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+
+
