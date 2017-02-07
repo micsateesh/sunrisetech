@@ -1,0 +1,63 @@
+<%= form_tag({controller: "home", action: "create"}, method: "post", class: "sky-form contact-style", id: "contact_form") do %>
+						<fieldset>
+							<div class="row margin-bottom-30">
+								<div class="col-md-6 col-md-offset-0">
+									<div>
+										<%=text_field_tag :name,"", id: "name" ,class: "form-control" , onkeypress: 'validatechar(event)',placeholder: "Your Name" %>
+									</div>
+								</div>
+								<div class="col-md-6 col-md-offset-0">
+									<div>
+										
+										<%=text_field_tag  :phone,"", id: "phone" ,class: "form-control" ,placeholder: "Your Phone" , onkeypress: 'validatenumber(event)',pattern: "[789][0-9]{9}" %>
+										<div class="phone-validation" style=" display: none; float:left; color: red">
+											enter valid phone
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="row margin-bottom-30">
+								<div class="col-md-6 col-md-offset-0">
+									<div>
+										<%=email_field_tag  :email,"", id: "email" ,class: "form-control" ,placeholder: "Email*",required: true %>
+										<!-- <div class="email-validation" style=" display: none; float:left; color: red">
+											enter valid email
+										</div> -->
+									</div>
+								</div>
+
+								<div class="col-md-6 col-md-offset-0">
+									<div>
+										<!-- <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject"> -->
+										<%=text_field_tag  :subject,"" ,id: "subject" ,class: "form-control" ,placeholder: "Subject" %>
+									</div>
+								</div>
+							</div>
+
+							<div class="row margin-bottom-30">
+								<div class="col-md-12 col-md-offset-0">
+									<div>
+										<%=text_area_tag  :message,"" , id: "message" ,class: "form-control g-textarea-noresize" ,placeholder: "Message" %>
+									</div>
+								</div>
+							</div>
+							<div>
+						<!-- 	<div class="row margin-bottom-30">
+								<div class="col-md-12 col-md-offset-0">
+									<div>
+										<%=label_tag :Attachment,"Attachment", class: 'label-attach' %>	
+										<%=attached_field_tag  :attachment, id: "attachment" ,class: "form-control" ,placeholder: "Attachment" %>
+									</div>
+								</div>
+							</div> -->		
+							<p><!-- <button type="submit" class="btn-u btn-u-lg btn-u-bg-default btn-u-upper">Send Message</button> -->
+							<%=submit_tag  :submit ,class: "btn-u btn-u-lg btn-u-bg-default btn-u-upper" ,id: "send_message",placeholder: "Send Message" %>
+							</p>
+						</fieldset>
+
+						<div class="message">
+							<i class="rounded-x fa fa-check"></i>
+							<p>Your message was successfully sent!</p>
+						</div>
+					<% end %>
