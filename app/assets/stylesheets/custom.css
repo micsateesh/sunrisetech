@@ -1,3 +1,6 @@
+.img-block{
+  width: 100%;
+}
 .hd{
 	background: #2abcf2;
 	color: white;
@@ -129,4 +132,11 @@ color: whitesmoke;
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+#cnt-main{
+  text-align: center;
+}
+.fm{
+    width: 70%;
+    height: 48px;
 }
