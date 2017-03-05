@@ -1,12 +1,12 @@
 <div id="contact-form-view">
   <%= form_for(Contact.new) do |f| %>
-    <%= f.text_field :name, :required => true, placeholder: 'NAME', class: 'user-name fm',onkeypress: 'validatechar(event)' %>
+    <%= f.text_field :name, :required => true, placeholder: 'NAME', class: 'user-name fm form-control',onkeypress: 'validatechar(event)' %>
     <br>
-    <%= f.text_field :email, :required => true , placeholder: 'E-MAIL', class: 'user-email fm' %>
+    <%= f.text_field :email, :required => true , placeholder: 'E-MAIL', class: 'user-email fm form-control' %>
     <br>
-     <%= f.text_field :phone, :required => true, placeholder: 'PHONE', class: 'user-phone fm', onkeypress: 'validatenumber(event)',pattern: "[789][0-9]{9}" %>
+     <%= f.text_field :phone, :required => true, placeholder: 'PHONE', class: 'user-phone fm form-control', onkeypress: 'validatenumber(event)',pattern: "[789][0-9]{9}" %>
      <br>
-    <%= f.text_field :message, :as => :text, :required => true,   placeholder: 'MESSAGE', class: 'user-message fm' %>
+    <%= f.text_field :message, :as => :text, :required => true,   placeholder: 'MESSAGE', class: 'user-message fm form-control' %>
     
     <div>
       </br>
