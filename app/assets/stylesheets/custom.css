@@ -105,6 +105,7 @@ color: whitesmoke;
 @media (max-width: 575px){
 	.mob-media{
 		display: block;
+    background-color: white;
 	}
 	.header-main{
 		display: none;
