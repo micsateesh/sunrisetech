@@ -3,13 +3,13 @@ source 'https://rubygems.org'
 #gem 'hpricot'
 gem 'premailer-rails3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.6'
+gem 'rails', '5.0.1'
 gem 'mail_form'
 gem 'simple_form'
 # Use sqlite3 as the database for Active Record
 group :production do
 	gem 'pg'
-	gem 'rails_12factor', group: :production
+	gem 'rails_12factor'
 end
 group :development do
 	gem 'sqlite3'

@@ -36,7 +36,7 @@
 	        <li class="nav-list"><a href="web-designing">WEBSITE DESIGN</a></li>
 			<li class= "nav-list"><a href="prices">PRICING</a></li>
 			<li class="nav-list"><a href="about">ABOUT US</a></li>
-	        <li class="nav-list"><a href="contact">CONTACT US</a></li>
+	        <li class="nav-list"><a href="contacts">CONTACT US</a></li>
 	</div>
 		<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
 	</div>
@@ -279,32 +279,30 @@
     <div class="contact-section">
       <div class="container">
         <div class="row">
-          <div class="col-md-12 contact-heading">
-            <h2>Contact</h2>
-          </div>
-        </div>
-        <div class="row">
           <div class="col-md-6 contact-form">
-          	<%= render "contacts/form" %>
+          	<h2>Contact</h2>
+          	<%= render "contacts/contactform" %>
            
           </div>
           <div class="col-md-6 contact-content">
-            <div class="company-name">Sunrise Tech Pvt Ltd.</div>
-            <ul>
+            <div class="company-name">
+            	<h2>Sunrise Tech Pvt Ltd.</h2>
+            </div>
+            <ul style="list-style-type:none;">
               
               <li class="row" >
                 <div class="col-md-1"><img src="assets/img/phone.png" /></div>
-                <div class="col-md-11">Phone: 09582806048<br />
-                  Landline: 0120-4214850
+                <div class="col-md-11"><h4>Phone: 09582806048</h4>
+                 <h4> Landline: 0120-4214850</h4>
                 </div>
               </li>
-              <li class="row">
+              <li class="row" style="">
                 <div class="col-md-1"><img src="assets/img/email.png" /></div>
-                <div class="col-md-11 ">Email: sales@seoservicedelhi.in</div>
+                <div class="col-md-11 "><h4>Email: mic@sunrisetech.in</h4></div>
               </li>
-              <li class="row">
+              <li class="row" style="">
                 <div class="col-md-1"><img src="assets/img/website.png" /></div>
-                <div class="col-md-11">Website: <a href="http://localhost:3000/">www.sunrisetech.in</a></div>
+                <div class="col-md-11"><h4>Website: <a href="http://localhost:3000/">www.sunrisetech.in</h4></a></div>
               </li>
             </ul>
           </div>
@@ -333,7 +331,7 @@
 								<li><a href="/prices">PRICING</a></li>
 								<li><a href="/about">ABOUT US</a></li>
 								<!--<li><a href="/knowledgebase">Knowledgebase</a></li>-->
-								<li><a href="/contact">CONTACT US</a></li>
+								<li><a href="/contacts">CONTACT US</a></li>
 							</ul>
 					</div>
 					<div class="col-sm-4">
@@ -342,7 +340,7 @@
 								<h4>Contact Us</h4>
 								<li><p><i class="icon icon-map-marker"></i> <strong>Address: </strong> Level One Building Block 7/8, Galway Technology Park, Parkmore, Galway, H91 E309, Ireland.</p></li>
 								<li><p><i class="icon icon-phone"></i> <strong>Phone: </strong> +353-91-680-103</p></li>
-								<li><p><i class="icon icon-envelope"></i> <strong>E-mail: </strong> <a href="/contact">Contact Us</a></p></li>
+								<li><p><i class="icon icon-envelope"></i> <strong>E-mail: </strong> <a href="/contacts">Contact Us</a></p></li>
 							</ul>
 						</div>
 					</div>

@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   match '/about', to: 'about#about', via: [:get]
   match '/contacts', to: 'contacts#new', via: [:get]
   match '/web-designing', to: 'webdesign#web', via: [:get]
-  resources "contacts", only: [:contact, :create]
+  resources "contacts", only: [:new, :create]
   # match '/punjabi_videos', to: 'videos#punjabi', via: [:get]
   # match '/haryanvi_videos', to: 'videos#haryanvi', via: [:get]
   # match '/hollywood_movies', to: 'movies#hollywood', via: [:get]
