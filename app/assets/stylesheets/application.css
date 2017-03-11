@@ -13,3 +13,9 @@
  *= require_tree .
  *= require_self
  */
+.container{
+	width: 100% !important;
+}
+.text-center{
+	text-align: -webkit-auto !important;
+}
