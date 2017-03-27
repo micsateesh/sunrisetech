@@ -21,19 +21,21 @@ div.rt:hover {
   transform: rotate(360deg);
 }  
 .serv-head{
-  text-align: center;
+  text-align: initial;
   font-size: 24px;
   font-family: neoubold;
   color: #333333;
   text-transform: uppercase;
   margin-top: 10px;
+  margin-left: 40px;
 }
 
 .about-serv{
-  text-align: center;
+  text-align: initial;
   font-size: 14px;
   color: #777777;
   margin-bottom: 10px;
+  margin-left: 40px;
 }  
 .glyphicon{
   display: none !important;
