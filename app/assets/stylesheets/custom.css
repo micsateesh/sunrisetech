@@ -2,8 +2,24 @@
 width: 30px;
 margin-top: 223px;
 }
-
-div .rt{
+.nav-tabs {
+     border-bottom: none !important;
+}
+#logo{
+  text-align: initial;
+  font-size: 24px;
+  font-family: neoubold;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.hdr{
+  float: right;
+  margin-right: 4%;
+  margin-top: 2%;
+}
+/*div .rt{
   width:160px;
   height:160px;
   border:#cecece;
@@ -14,12 +30,12 @@ div .rt{
   -webkit-transition: all 0.6s ease-in-out;
   -moz-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
-}
-div.rt:hover {
+}*/
+/*div.rt:hover {
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   transform: rotate(360deg);
-}  
+} */ 
 .serv-head{
   text-align: initial;
   font-size: 24px;
@@ -66,8 +82,9 @@ div.rt:hover {
   width: 100%;
 }
 .hd{
-	background: #2abcf2;
+	background: #df4539;
 	color: white;
+  height: 82px;
 }
 #hpd{
 	margin-left: 63px;
@@ -101,6 +118,7 @@ div.rt:hover {
 }
 .dropdown:hover .dropdown-menu{
   display: block !important;
+  background-color: #df4539;
 
 }
 
@@ -264,19 +282,31 @@ color: whitesmoke;
   margin-left: 15px;
   text-transform: uppercase;
   font-size: 22px;
-  color: #8E91A0;
+  color: whitesmoke;
   margin-top: 0px;
   font-weight: lighter;
   text-rendering: optimizeLegibility;
   }
   .rf-serv{
-    font-size: 28px;
-    font-weight: lighter;
+ font-size: 30px;
+  font-weight: lighter;
+  font-family: neouthin;
+  text-align: center;
+  text-transform: uppercase;
+  color: slategray;
+  margin-top: 40px;
+  line-height: 1;
+  padding: 10px;
+  }
+  .about-serv{
     font-family: neouthin;
-    text-transform: uppercase;
-    color: slategrey;
-    line-height: 1;
-    margin-left: 2%;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: whitesmoke;
+  margin-top: 0px;
+  font-weight: lighter;
+  text-rendering: optimizeLegibility;
   }
 }
 @media screen and (max-height: 450px) {
@@ -294,6 +324,7 @@ color: whitesmoke;
 }
 #result-section{
   margin-bottom: 23px;
+  background-color: #ffffff;
 }
 #contact-section{
   background-color: whitesmoke ;
@@ -337,4 +368,21 @@ font-style: oblique;
 
 #contact-header{
   padding-left: 2%;
+}
+
+#bck1{
+   background-image: url("event/b1.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#bck2{
+   background-image: url("event/b10.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.rt{
+  margin-top: 17%;
+}
+
 }
