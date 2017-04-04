@@ -53,7 +53,6 @@ margin-top: 223px;
   margin-left: 1%;
   font-family: neouthin;
   text-transform: uppercase;
-  color: #8E91A0;
   margin-top: 1%;
   font-weight: lighter;
   text-rendering: optimizeLegibility;
@@ -266,23 +265,25 @@ color: whitesmoke;
     display: none;
   }
   .cnt-head{
-  font-size: 38px;
-  font-weight: lighter;
+  color: #303030;
+  font-size: 27px;
+  font-weight: 600;
+  letter-spacing: 1px;
   font-family: neouthin;
-  text-align: center;
   text-transform: uppercase;
-  color: #d12527;
   margin-top: 40px;
-  line-height: 1;
+   margin-left: 15px;
+  line-height: 1.304347826086957em;
   padding: 10px;
   }
   .cnt{
-  font-family: neouthin;
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   padding: 5px;
   margin-left: 15px;
   text-transform: uppercase;
-  font-size: 22px;
-  color: 303030;
+  font-size: 18px;
   margin-top: 0px;
   font-weight: lighter;
   text-rendering: optimizeLegibility;
@@ -293,10 +294,9 @@ color: whitesmoke;
   font-family: neouthin;
   text-align: center;
   text-transform: uppercase;
-  color: currentColor;
+  color: #d12527;
   margin-top: 40px;
   line-height: 1;
-  padding: 10px;
   }
   .about-serv{
     font-family: neouthin;
