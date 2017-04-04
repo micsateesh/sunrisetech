@@ -170,7 +170,7 @@ color: whitesmoke;
     font-size: 25px;
     color: #818181;
     display: block;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 .sidenav a:hover, .offcanvas a:focus{
     color: #f1f1f1;
@@ -282,7 +282,7 @@ color: whitesmoke;
   margin-left: 15px;
   text-transform: uppercase;
   font-size: 22px;
-  color: whitesmoke;
+  color: 303030;
   margin-top: 0px;
   font-weight: lighter;
   text-rendering: optimizeLegibility;
@@ -293,7 +293,7 @@ color: whitesmoke;
   font-family: neouthin;
   text-align: center;
   text-transform: uppercase;
-  color: slategray;
+  color: currentColor;
   margin-top: 40px;
   line-height: 1;
   padding: 10px;
@@ -303,7 +303,7 @@ color: whitesmoke;
   padding: 10px;
   text-transform: uppercase;
   font-size: 18px;
-  color: whitesmoke;
+  color: 303030;
   margin-top: 0px;
   font-weight: lighter;
   text-rendering: optimizeLegibility;
@@ -371,9 +371,7 @@ font-style: oblique;
 }
 
 #bck1{
-   background-image: url("event/b1.jpg");
-    background-attachment: fixed;
-    background-size: 100% 100%;
+   background-color: #f8f8f8;
 }
 #bck2{
    background-image: url("event/b8.jpg");
@@ -385,3 +383,6 @@ font-style: oblique;
   margin-top: 17%;
 }
 
+.carousel-inner img{
+  height: 570px !important;
+}
