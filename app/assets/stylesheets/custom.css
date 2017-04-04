@@ -170,7 +170,7 @@ color: whitesmoke;
     font-size: 25px;
     color: #818181;
     display: block;
-    transition: 0.3s
+    transition: 0.3s;
 }
 .sidenav a:hover, .offcanvas a:focus{
     color: #f1f1f1;
@@ -385,4 +385,3 @@ font-style: oblique;
   margin-top: 17%;
 }
 
-}
