@@ -295,14 +295,14 @@ color: whitesmoke;
   text-rendering: optimizeLegibility;
   }
   .rf-serv{
- font-size: 30px;
+ font-size: 27px;
   font-weight: lighter;
   font-family: neouthin;
-  text-align: center;
   text-transform: uppercase;
   color: #d12527;
   margin-top: 40px;
   line-height: 1;
+  padding: 10px;
   }
   .about-serv{
     font-family: neouthin;
