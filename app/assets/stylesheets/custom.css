@@ -409,6 +409,5 @@ font-style: oblique;
 
 
 .dropdown-menu{
-  margin-top: 11px !important;
-  border-top-color: transparent !important;
+  border-color: transparent !important;
 }
