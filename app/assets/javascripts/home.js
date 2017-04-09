@@ -16,27 +16,27 @@
 //     x[slideIndex-1].style.display = "block";
 // }
 
-var sindex = 0;
-carousel();
+// var sindex = 0;
+// carousel();
 
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
-    }
-    sindex++;
-    if (sindex > x.length) {sindex = 1}
-    x[sindex - 1].style.display = "block";
-    setTimeout(carousel, 2000); // Change image every 2 seconds
-}
+// function carousel() {
+//     var i;
+//     var x = document.getElementsByClassName("mySlides");
+//     for (i = 0; i < x.length; i++) {
+//       x[i].style.display = "none";
+//     }
+//     sindex++;
+//     if (sindex > x.length) {sindex = 1}
+//     x[sindex - 1].style.display = "block";
+//     setTimeout(carousel, 2000); // Change image every 2 seconds
+// }
 
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-}
+// function openNav() {
+//     document.getElementById("mySidenav").style.width = "250px";
+// }
 
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
+// function closeNav() {
+//     document.getElementById("mySidenav").style.width = "0";
+// }
 
 

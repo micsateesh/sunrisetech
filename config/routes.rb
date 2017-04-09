@@ -1,70 +1,22 @@
 Rails.application.routes.draw do
   # match '/seo-services', to: 'seo#seoservise', via: [:get]
-  match '/smo-services', to: 'smo#smo', via: [:get]
-  match '/prices', to: 'price#price', via: [:get]
-  match '/about', to: 'about#about', via: [:get]
-  match '/contacts', to: 'contacts#new', via: [:get]
-  match '/web-designing', to: 'webdesign#web', via: [:get]
-  resources "contacts", only: [:new, :create]
-  # match '/punjabi_videos', to: 'videos#punjabi', via: [:get]
-  # match '/haryanvi_videos', to: 'videos#haryanvi', via: [:get]
-  # match '/hollywood_movies', to: 'movies#hollywood', via: [:get]
-  # match '/bollywood_movies', to: 'movies#bollywood', via: [:get]
-  # match '/punjabi_movies', to: 'movies#punjabi', via: [:get]
-  # match '/haryanvi_movies', to: 'movies#haryanvi', via: [:get]
-  # The priority is based upon order of creation: first created -> highest priority.
-  # See how all your routes lay out with "rake routes".
+  get 'smo-services' => 'seo#smo'
+  get 'seo-servise' => 'seo#seo'
+  get 'seo-delhi' => 'seo#seo-delhi'
+  get 'seo-faridabad' => 'home#seo-fdb'
+  get 'seo-gurgaon' => 'seo#seo-grg'
+  get 'seo-noida' => 'seo#seo-noida'
+  get 'prices' => 'seo#price'
+  get 'about' => 'seo#about'
+  post 'contacts' => 'seo#contact-us' , as: :contact
+  get 'contacts' => 'seo#contact'
+  get 'web-designing' => 'seo#web'
 
-  # You can have the root of your site routed with "root"
-  # root 'welcome#index'
-
-  # Example of regular route:
-  #   get 'products/:id' => 'catalog#view'
-
-  # Example of named route that can be invoked with purchase_url(id: product.id)
-  #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
-
-  # Example resource route (maps HTTP verbs to controller actions automatically):
-  #   resources :products
-
-  # Example resource route with options:
-  #   resources :products do
-  #     member do
-  #       get 'short'
-  #       post 'toggle'
-  #     end
-  #
-  #     collection do
-  #       get 'sold'
-  #     end
-  #   end
-
-  # Example resource route with sub-resources:
-  #   resources :products do
-  #     resources :comments, :sales
-  #     resource :seller
-  #   end
-
-  # Example resource route with more complex sub-resources:
-  #   resources :products do
-  #     resources :comments
-  #     resources :sales do
-  #       get 'recent', on: :collection
-  #     end
-  #   end
-
-  # Example resource route with concerns:
-  #   concern :toggleable do
-  #     post 'toggle'
-  #   end
-  #   resources :posts, concerns: :toggleable
-  #   resources :photos, concerns: :toggleable
-
-  # Example resource route within a namespace:
-  #   namespace :admin do
-  #     # Directs /admin/products/* to Admin::ProductsController
-  #     # (app/controllers/admin/products_controller.rb)
-  #     resources :products
-  #   end
-  root 'home#index'
+  # match '/smo-services', to: 'smo#smo', via: [:get]
+  # match '/prices', to: 'price#price', via: [:get]
+  # match '/about', to: 'about#about', via: [:get]
+  # match '/contacts', to: 'contacts#new', via: [:get]
+  # match '/web-designing', to: 'webdesign#web', via: [:get]
+  # resources "contacts", only: [:new, :create]
+  root 'seo#index'
 end

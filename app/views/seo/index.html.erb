@@ -20,7 +20,6 @@
 <body>
 	<header>
 		<div class="container">
-			<div class="row">
 				<div class="mob-media">
 				  	<div id="mySidenav" class="sidenav mob-color">
 						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -43,11 +42,11 @@
 					</div>
 					<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
 				</div>
-				<div class=" header-main">
-					<div class="header-top hd">
-				        <div id="container">
-				          <a href="http://localhost:3000/" title="SUNRISETECH IN PALWAL" id="logo"></a>
-						    <div id="drop-down" class="hdr">
+				<div class="row header-main hd">
+						<div class="row logo-blk">
+				          <a href="http://localhost:3000/" title="SUNRISETECH IN PALWAL" id="logo"><img src="assets/img/logo.png"/> </a>
+				      	</div>
+						    <div class=" row hdr">
 								<ul class="nav nav-tabs">
 								<li class=" nav-list" id="hpd"><a href="http://localhost:3000/" title="SUNRISETECH">HOME</a></li>
 								<li class="dropdown nav-list">
@@ -68,10 +67,7 @@
 						        <li class="nav-list"><a href="contacts">CONTACT US</a></li>
 						    </div>
 						      
-						</div>
-					</div>
 				</div>
-			</div>
 		</div>
 	</header>
 	<section>
@@ -145,8 +141,8 @@
 									
 								</div>
 				                <div><!-- <img src="assets/img/right-arrow.jpg" id="right-arrow"/> -->
-				              	<a href="http://localhost:3000/" class="rf-serv">Search Engine Optimization:
-				              	</a>
+				              	<div class="rf-serv">Search Engine Optimization:
+				              	</div>
 				                </div>
 								<p class="about-serv">Optimizing a website to rank on the top of search engine result page (SERP), is termed as the process of Search Engine Optimization. So, we have a team of SEO specialists who provide the unmatched services to the business that ranks the business on the top of search engine result page whenever someone searches for the services provided by your business. </P>
 
@@ -159,8 +155,8 @@
 
 								</div>
 								<div>
-				              	<a href="http://localhost:3000/" class="rf-serv">Social media optimization:
-				              	</a>
+				              	<div class="rf-serv">Social media optimization:
+				              	</div>
 				                </div>
 								<p class="about-serv">Optimizing business on the digital channels helps the businesses to grow and to increase the traffic on the website. We have a team of SMO specialists that generate marketing campaigns on the social media channels that helps to raise the growth of the business.</P>
 							</div>
@@ -171,8 +167,8 @@
 									</a> -->
 								</div>
 								<div><!-- <img src="assets/img/right-arrow.jpg" id="right-arrow"/> -->
-				              	<a href="http://localhost:3000/" class="rf-serv">Pay per click:
-				              	</a>
+				              	<div class="rf-serv">Pay per click:
+				              	</div>
 				                </div>
 								<p class="about-serv">We also provide Pay per click services that targets specific traffic to the business’s website. PPC campaign at Sunrise Tech helps to enhance your sales by providing best conversion rates. <br>If you really want to enhance your business and want traffic online, then avail our best digital marketing services at affordable prices. We provide you the targeted audience to your brand’s website and assure to stand upon your expectations.</P>
 							</div>
@@ -288,7 +284,7 @@
 				        <div id="contact" class="row">
 				          <div class="col-sm-6 contact-form">
 				          	<h2 id ="contact-header">Contact</h2>
-				          	<%= render "contacts/contactform" %>
+				          	<%= render "contactform" %>
 				           
 				          </div>
 				          <div class="col-sm-6 contact-content">
