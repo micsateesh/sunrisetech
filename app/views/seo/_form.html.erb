@@ -7,17 +7,17 @@
 </style>
 <div id="contact-form">
   <%= form_for @contact do |f| %>
-    <%= f.text_field :name, :required => true, placeholder: 'NAME', class: 'form-control',onkeypress: 'validatechar(event)' %>
+    <%= f.text_field :name, :required => true, placeholder: 'NAME', class: 'form-control pad-bot',onkeypress: 'validatechar(event)' %>
     <br>
-    <%= f.text_field :email, :required => true , placeholder: 'E-MAIL', class: 'form-control' %>
+    <%= f.text_field :email, :required => true , placeholder: 'E-MAIL', class: 'form-control pad-top-bot' %>
     <br>
-     <%= f.text_field :phone, :required => true, placeholder: 'PHONE', class: 'form-control', onkeypress: 'validatenumber(event)',pattern: "[789][0-9]{9}" %>
+     <%= f.text_field :phone, :required => true, placeholder: 'PHONE', class: 'form-control pad-top-bot', onkeypress: 'validatenumber(event)',pattern: "[789][0-9]{9}" %>
      <br>
     <%= f.text_field :message, :as => :text, :required => true,   placeholder: 'MESSAGE', class: 'form-control' %>
     
     <div>
       </br>
-      <%= f.submit 'Send message', :class=> "btn btn-primary" %>
+      <%= f.submit 'Send message pad-top-bot', :class=> "btn btn-primary" %>
     </div>
   <% end %>
 </div>

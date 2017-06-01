@@ -127,6 +127,7 @@ margin-top: 223px;
 }
 .ftr1{
   background: #252525;
+  margin-top: 15px;
 }
 .ftr1 h4{
 font-size: 25px;
@@ -341,7 +342,6 @@ color: whitesmoke;
   text-align: center;
 }
 .fm{
-    width: 70%;
     height: 48px;
 }
 #seo-section{
@@ -410,4 +410,15 @@ font-style: oblique;
 
 .dropdown-menu{
   border-color: transparent !important;
+}
+.pad-top-bot{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.cnt-form-one{
+  width: 80%;
+}
+.cnt-form-one-submit-bnt{
+  width: 100%;
+  height: 48px;
 }
