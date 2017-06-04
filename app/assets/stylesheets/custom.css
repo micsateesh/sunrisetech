@@ -127,7 +127,6 @@ margin-top: 223px;
 }
 .ftr1{
   background: #252525;
-  margin-top: 15px;
 }
 .ftr1 h4{
 font-size: 25px;
@@ -315,6 +314,9 @@ color: whitesmoke;
   font-weight: lighter;
   text-rendering: optimizeLegibility;
   }
+  .col-sm-1{
+    padding-top: 20px;
+  }
 }
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
@@ -352,6 +354,7 @@ color: whitesmoke;
 }
 #contact-section{
   background-color: whitesmoke ;
+  padding-bottom: 15px;
 }
 #home-button{
     margin-bottom: 16px;
@@ -421,4 +424,14 @@ font-style: oblique;
 .cnt-form-one-submit-bnt{
   width: 100%;
   height: 48px;
+}
+ul.list-block{
+  list-style-type: none;
+}
+.cnt-form{
+  text-align: -webkit-center;
+  margin-bottom: 15px;
+}
+.cnt-txt{
+  color: #808283 !important; 
 }
