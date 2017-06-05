@@ -462,7 +462,7 @@ ul.list-block{
   list-style-type: none;
 }
 .cnt-form{
-  text-align: center;
+  text-align: -webkit-center;
   margin-bottom: 15px;
 }
 .cnt-txt{
