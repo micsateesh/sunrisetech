@@ -8,8 +8,8 @@ Rails.application.routes.draw do
   get 'seo-noida' => 'seo#seo-noida'
   get 'prices' => 'seo#price'
   get 'about' => 'seo#about'
-  post 'contacts' => 'seo#contact-us' , as: :contact
-  get 'contacts' => 'seo#contact'
+  post 'contacts' => 'seo#contact' , as: :contact
+  #get 'contacts' => '#contact'
   get 'web-designing' => 'seo#web'
 
   # match '/smo-services', to: 'smo#smo', via: [:get]
