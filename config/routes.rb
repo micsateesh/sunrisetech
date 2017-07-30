@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   get 'prices' => 'seo#price'
   get 'about' => 'seo#about'
   post 'contacts' => 'seo#contact' , as: :contact
-  #get 'contacts' => '#contact'
+  get 'contact' => 'seo#show_contact'
   get 'web-designing' => 'seo#web'
 
   # match '/smo-services', to: 'smo#smo', via: [:get]
